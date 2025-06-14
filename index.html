@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guia de Tags HTML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    h1, h2 {
+      color: #0d47a1;
+    }
+    a {
+      color: #1565c0;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .voltar {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: #1976d2;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .voltar:hover {
+      background-color: #0d47a1;
+    }
+    hr {
+      margin: 30px 0;
+      border: none;
+      border-top: 2px solid #90caf9;
+    }
+  </style>
+</head>
+<body id="topo">
+
+  <h1>Guia de Tags HTML</h1>
+  <hr />
+
+  <h2>Índice</h2>
+  <ul>
+    <li><a href="#h1">Tag &lt;h1&gt; até &lt;h6&gt;</a></li>
+    <li><a href="#p">Tag &lt;p&gt;</a></li>
+    <li><a href="#mark">Tag &lt;mark&gt;</a></li>
+    <li><a href="#small">Tag &lt;small&gt;</a></li>
+    <li><a href="#i">Tag &lt;i&gt;</a></li>
+    <li><a href="#u">Tag &lt;u&gt;</a></li>
+    <li><a href="#strong">Tag &lt;strong&gt;</a></li>
+    <li><a href="#ol">Tag &lt;ol&gt;, &lt;ul&gt;, &lt;li&gt;</a></li>
+    <li><a href="#a">Tag &lt;a&gt;</a></li>
+    <li><a href="#hr">Tag &lt;hr&gt;</a></li>
+    <li><a href="#subsup">Tags &lt;sub&gt; e &lt;sup&gt;</a></li>
+    <li><a href="#blockquote">Tag &lt;blockquote&gt;</a></li>
+    <li><a href="#font">Tag &lt;font&gt; (obsoleta)</a></li>
+    <li><a href="#del">Tag &lt;del&gt;</a></li>
+    <li><a href="#abbr">Tag &lt;abbr&gt;</a></li>
+    <li><a href="#referencias">Referências</a></li>
+  </ul>
+
+  <hr />
+
+  <h2 id="h1">&lt;h1&gt; até &lt;h6&gt;</h2>
+  <p>Essas tags são usadas para títulos e subtítulos. O &lt;h1&gt; é o título principal da página — o mais importante. Já o &lt;h6&gt; é o de menor destaque. É como se fossem os níveis de títulos de um trabalho escolar: o título da capa é &lt;h1&gt;, os capítulos são &lt;h2&gt;, os subtópicos &lt;h3&gt;, e assim vai até &lt;h6&gt;.</p>
+  <p>Essas tags ajudam a organizar o conteúdo para o leitor e para os mecanismos de busca, como o Google. Usar corretamente melhora a leitura e o SEO da sua página.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="p">&lt;p&gt;</h2>
+  <p>A tag &lt;p&gt; é usada para criar parágrafos. É uma das mais básicas e importantes para escrever textos na web. Sempre que você quiser separar um bloco de texto, usa &lt;p&gt; no começo e &lt;/p&gt; no final.</p>
+  <p>Ela organiza seu conteúdo em blocos legíveis e é essencial para deixar seu site bonito e fácil de entender.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="mark">&lt;mark&gt;</h2>
+  <p>Essa tag serve para destacar um trecho do texto, como se você tivesse passado um marca-texto amarelo por cima. Pode usar quando quiser chamar atenção para uma palavra ou frase importante.</p>
+  <p>Visualmente, ela pinta o fundo do texto de amarelo.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="small">&lt;small&gt;</h2>
+  <p>Essa tag diminui o tamanho da fonte do texto dentro dela. Pode ser usada para observações, rodapés, ou avisos pequenos que não precisam chamar atenção.</p>
+  <p>Ela não deixa o texto ilegível, só um pouco menor.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="i">&lt;i&gt;</h2>
+  <p>Usada para deixar o texto em itálico. Pode ser útil para palavras estrangeiras, nomes científicos, ou quando você quiser dar ênfase com estilo.</p>
+  <p>Visualmente, inclina o texto para a direita.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="u">&lt;u&gt;</h2>
+  <p>Essa tag sublinha o texto. Ela não é tão comum hoje em dia, porque o sublinhado pode confundir o usuário com links, mas ainda pode ser útil em alguns contextos.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="strong">&lt;strong&gt;</h2>
+  <p>Deixa o texto em negrito e indica que aquele conteúdo é importante. É diferente do &lt;b&gt; (que só deixa em negrito), pois o &lt;strong&gt; também dá significado semântico de importância.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="ol">&lt;ol&gt;, &lt;ul&gt; e &lt;li&gt;</h2>
+  <p>Essas tags são usadas para listas. &lt;ol&gt; é lista ordenada (numerada), &lt;ul&gt; é lista não ordenada (com bolinhas), e &lt;li&gt; é cada item da lista.</p>
+  <p>Elas são muito úteis para organizar informações de forma clara.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="a">&lt;a&gt;</h2>
+  <p>É a tag de link! Com ela, você pode direcionar o usuário para outra página, arquivo, ou até outra parte da mesma página.</p>
+  <p>Exemplo: <a href="https://www.google.com" target="_blank">Ir para o Google</a></p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="hr">&lt;hr&gt;</h2>
+  <p>Insere uma linha horizontal que separa o conteúdo. É ótima para dividir seções visualmente.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="subsup">&lt;sub&gt; e &lt;sup&gt;</h2>
+  <p>Essas tags são usadas para texto abaixo (subscrito) e acima (sobrescrito). Muito usado em fórmulas químicas ou matemáticas.</p>
+  <p>Exemplo: H<sub>2</sub>O ou 5<sup>2</sup></p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="blockquote">&lt;blockquote&gt;</h2>
+  <p>Usada para citar um texto de outra fonte. O texto fica com uma indentação e estilo diferente, parecendo uma citação mesmo.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="font">&lt;font&gt; (obsoleta)</h2>
+  <p>Essa tag era usada para definir cor, tipo e tamanho da fonte, mas foi descontinuada. Hoje em dia a gente faz isso com CSS.</p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="del">&lt;del&gt;</h2>
+  <p>Usada para mostrar que um texto foi removido. Ela risca o conteúdo, como se fosse um erro corrigido.</p>
+  <p>Exemplo: <del>Este texto foi deletado.</del></p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="abbr">&lt;abbr&gt;</h2>
+  <p>Serve para abreviações. Quando o usuário passa o mouse por cima, aparece o significado completo.</p>
+  <p>Exemplo: <abbr title="HyperText Markup Language">HTML</abbr></p>
+  <a class="voltar" href="#topo">🔙 Voltar ao índice</a>
+
+  <hr />
+
+  <h2 id="referencias">Referências</h2>
+  <ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">MDN Web Docs - Elementos HTML</a></li>
+    <li><a href="https://www.w3schools.com/html/">W3Schools - HTML Tutorial</a></li>
+    <li><a href="https://www.youtube.com/watch?v=4AfRAVcThyA">Videoaula: Curso HTML para Iniciantes - DIO</a></li>
+  </ul>
+  <a class="voltar" href="#topo">🔝 Voltar ao topo</a>
+
+</body>
+</html>
